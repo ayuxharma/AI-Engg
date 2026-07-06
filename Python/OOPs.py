@@ -1,8 +1,3 @@
-"""
-OOPs
-"""
-
-
 class Car:
 
     # CLASS VARIABLE
