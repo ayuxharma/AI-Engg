@@ -11,7 +11,7 @@ from fastapi_users.authentication import (
 from fastapi_users.db import SQLAlchemyUserDatabase
 from app.db import User, get_user_db
 
-SECRET = "vyv5785v7d8gff7" #SECRET KEY 
+SECRET = "" #SECRET KEY 
 
 class UserManager(UUIDIDMixin, BaseUserManager[User, uuid.UUID]) :
     reset_password_token_secret = SECRET 
